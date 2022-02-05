@@ -1,4 +1,4 @@
-import { ok } from "../../../main/http-helper";
+import { ok } from "./helpers/http-helper";
 import { Controller } from "../../../main/ports/controller";
 import { HttpRequest, HttpResponse } from "../../../main/ports/http";
 
