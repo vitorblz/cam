@@ -1,5 +1,6 @@
-import { ServerError } from "../../../../main/errors"
-import { HttpResponse } from "../../../../main/ports/http"
+
+import { ServerError } from "../errors"
+import { HttpResponse } from "../ports/http"
 
 export const badRequest = (error: Error): HttpResponse => ({
   statusCode: 400,
